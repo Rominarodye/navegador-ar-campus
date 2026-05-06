@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -147,14 +147,12 @@
                 // Ej: 0 es Norte, 90 es Este, 180 es Sur, 270 es Oeste.
                 rumboInicial: 0, 
                 pasos: generarCoordenadas([
-                    // Usa 'grados' para giros cerrados/abiertos. Usa 'elevacion' para rampas/escaleras.
-                    { giro: 'adelante', metros: 105, elevacion: 0 },
-                    { giro: 'izquierda', grados: 90, metros: 1.5 },
-                    { giro: 'derecha', grados: 90, metros: 20 },
-                    { giro: 'izquierda', grados: 90, metros: 62 },
-                    { giro: 'derecha', grados: 90, metros: 26, elevacion: 1.5 }, // Ejemplo: Sube 1.5 metros aquí
-                    { giro: 'adelante', metros: 49 },
-                    { giro: 'derecha', grados: 90, metros: 10.5 }
+                    // Ruta extraída del mapa (Total: 296.07m)
+                    { giro: 'adelante', metros: 112, elevacion: 0 },
+                    { giro: 'izquierda', grados: 45, metros: 18 },
+                    { giro: 'izquierda', grados: 45, metros: 90 },
+                    { giro: 'derecha', grados: 45, metros: 30 },
+                    { giro: 'derecha', grados: 45, metros: 46.07 }
                 ])
             }
         };
